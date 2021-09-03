@@ -1,0 +1,464 @@
+/*================ base css start here ===================*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+/*	font-family: 'Open Sans', sans-serif;
+	font-family: 'Satisfy', cursive;*/
+}
+a{
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+/*================ base css end here ===================*/
+
+
+/*================ common css start here ===================*/
+.satisfy-p{
+	font-size: 26px;
+	color: #7bbbdd;
+	font-family: 'Satisfy', cursive;
+	font-weight: 400;
+	text-align: center;
+	margin: 0;
+}
+.width{
+	width: 90%;
+	margin: auto !important;
+}
+
+.d-flex{
+	display: flex;
+}
+.color-white{
+	color: #fff;
+
+}
+
+/*================ common css end here ===================*/
+
+
+/*================ header start here ===================*/
+/*====main header start here=====*/
+.float-right{
+	float: right;
+}
+.main-header{
+	background-color: rgba(255, 255, 255,.6);
+	height: 80px;
+	line-height: 80px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+.logo{
+	width: 33.33%;
+}
+.logo img{
+	width: 100%;
+	margin-top: 5px;
+}
+.menu{
+	width: 33.33%;
+}
+
+.menu-ul li{
+	padding-left: 37px;
+}
+.menu-ul li:nth-child(1){
+	padding-left: 0;
+}
+.menu-ul li a{
+	font-size: 12px;
+	font-weight: 700;
+	color: #333;
+	letter-spacing: .5px;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	line-height: 16px;
+}
+.menu-ul li a:hover{
+	color: #7BBBDD;
+}
+.menu-ul img{
+	width: 17px;
+}
+.header-icon{
+	width: 15%;
+}
+.header-icon img{
+	width: 80%;
+    margin-top: 15px;
+}
+.bg-img{
+	background-image: url("../img/header/banner1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top left;
+	height: 700px;
+	width: 100%px;
+	margin-top: 0;
+}
+
+.li-home a{
+	padding-bottom: 26px;
+	border-bottom: 3px solid #468AE7;
+
+}
+.menu-width{
+	width: 70%;
+	margin: auto;
+}
+/*==== main header end here =====*/
+
+/*==== main banner start here =====*/
+
+.banner-wid{
+	width: 36%;
+	position: absolute;
+	top: 200px;
+	left: 10%;
+}
+.bg-content h2{
+	font-size: 100px;
+	color: #ededed;
+	margin: 0;
+	font-family: 'Satisfy', cursive;
+}
+
+.bg-content h3{
+	font-size: 58px;
+	font-weight: 700;
+	color: #333333;
+	margin: 0 0 10px 0;
+	margin-top: -73px;
+	line-height: 58px;
+}
+.bg-content h4{
+	font-size: 58px;
+	font-weight: 300;
+	color: #333333;
+	margin: 0 0 7px 0;
+	line-height: 58px;
+}
+.bg-content h4 span{
+	font-size: 58px;
+	color: #7bbbdd;
+	font-family: 'Satisfy', cursive;
+}
+.bg-content p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #777777;
+	margin: 0;
+	line-height: 28px;
+	font-family: 'Open Sans', sans-serif
+}
+.buttonb{
+	background-color: #7bbbdd;
+	border: none;
+	padding: 17px 21px;
+	font-size: 14px;
+	line-height: 12px;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 24px;
+}
+.bg-content button:hover{
+	background-color: #649EFF;
+}
+.bg-content .watch{
+	background-color: transparent;
+	border: 1px solid rgb(219 219 219);
+	color: #333;
+	margin-left: 15px;
+	transition-duration: 1s;
+}
+.bg-content .watch:hover{
+	background-color: rgb(219 219 219);
+	border: 1px solid rgb(219 219 219);
+}
+/*==== main banner end here=====*/
+/*================ main header end here ===================*/
+/*================ middle section start here ===================*/
+/*================ section1 start here ===================*/
+.sec1{
+	padding: 60px 0 45px 0;
+}
+.card{
+	width: 33.33%;
+	margin: auto;
+}
+.card-bg{
+	background-image: url("../img/section1/sec1-img1.jpg");
+	width: 90%;
+	height: 250px;
+	background-size: cover;
+	background-position: center center;
+	margin: auto;
+}
+.card-bg:hover{
+	background-image: url("../img/section1/sec1-img1h.jpg");
+	
+
+}
+.card-content{
+	width: 75%;
+	background-color: #fff;
+	margin: auto;
+	padding: 10px 5px 15px 5px;
+	box-shadow: 0px 0px 2px #cfcfcf;
+	margin-top: -30px;
+}
+.card-content:hover{
+	box-shadow: 0px 0px 10px #cfcfcf;
+}
+.card-content h2{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	color: #242424;
+	line-height: 22px;
+}
+.card-content p{
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	color: #777777;
+	line-height: 22px;
+}
+.card-content h5{
+	margin: auto;
+	font-size: 13px;
+	font-weight: 600;
+	color: #333;
+	line-height: 18px;
+	border-bottom: 2px solid #7bbbdd;
+	width: 76px;
+	padding-bottom: 2px;
+}
+.card-bg2{
+	background-image: url("../img/section1/sec1-img2.jpg");
+}
+
+.card-bg2:hover{
+	background-image: url("../img/section1/sec1-img2h.jpg");
+}
+.card-bg3{
+	background-image: url("../img/section1/sec1-img3.jpg");
+}
+
+.card-bg3:hover{
+	background-image: url("../img/section1/sec1-img3h.jpg");
+}
+hr{
+    height:1px;
+    border-width:0;
+    background-color:#ebebeb;
+}
+/*================ section1 end here ===================*/
+/*================ skincare section start here ===================*/
+.skin-box{
+	width: 23%;
+}
+.skin-text h2{
+	font-size: 36px;
+	font-weight: 400;
+	color: #333333;
+	margin: 0;
+	line-height: 58px;
+	text-align: center;
+}
+.skin-text h3{
+	font-size: 36px;
+	font-weight: 300;
+	color: #333333;
+	margin: 0;
+	line-height: 58px;
+	text-align: center;
+}
+.skin-text{
+	margin-top: 60px;
+}
+.skin-text p{
+	font-size: 15px;
+	font-weight: 400;
+	color: #777;
+	margin: 10px 0 0 0;
+	line-height: 25px;
+	text-align: center;
+}
+.skin-text h5{
+	font-size: 13px;
+	font-weight: 600;
+	color: #333;
+	margin: 0;
+	line-height: 18px;
+	text-align: center;
+	width: 137px;
+	border-bottom: 2px solid #7bbbdd;
+	padding: 25px 0 2px 0;
+	margin: auto;
+}
+.skin-product-img{
+	background-image: url("../img/skincare/skin-product1.webp");
+	width: 100%;
+	height: 322px;
+	background-size: cover;
+}
+.skin-product-img2{
+	background-image: url("../img/skincare/skin-product2.webp");
+}
+.skin-product-img3{
+	background-image: url("../img/skincare/skin-product3.webp");
+}
+.pro-inner-p{
+	background-color: #7bbbdd;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 600;
+	margin: 0;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	top: 290px;
+	display: none;
+}
+.skin-care{
+	margin: 55px 0 50px 0;
+}
+.skin-product{
+	margin-left: 2%;
+}
+.skin-text{
+	margin-right: 2%;
+}
+.prop1{
+	font-size: 14px;
+	font-weight: 700;
+	color: #333;
+	text-align: center;
+}
+.prop2{
+	font-size: 14px;
+	font-weight: 400;
+	color: #9e9e9e;
+	text-align: center;
+}
+.prop3{
+	font-size: 15px;
+	font-weight: 600;
+	color: #7bbbdd;
+	text-align: center;
+}
+.pro-con p{
+	margin-bottom: -7px;
+}
+
+/*p hover*/
+.skin-product:hover .pro-inner-p{
+	display: block;
+}
+/*================ skincare section end here ===================*/
+/*================ Discover section start here ===================*/
+.discover{
+	background-color: #F8F8F8;
+}
+.dis-content{
+	margin-top: 160px;
+}
+.dis-wid{
+	width: 50%;
+	height: 535px;
+}
+.dis-wid img{
+	width: 100%;
+	height: 100%;
+}
+.dis-content h3{
+	margin: 0;
+	font-size: 46px;
+	font-weight: 600;
+}
+.dis-content h4{
+	font-size: 46px;
+	font-weight: 300;
+}
+.dis-content h4 span{
+	font-size: 46px;
+	font-weight: 300;
+}
+.dis-content p{
+	font-size: 15px;
+	font-weight: 400;
+}
+/*================ middle section end here ===================*/
+/*================ Discover section start here ===================*/
+
+.qua-img-wid img{
+	float: right;
+}
+.qua-img-wid{
+	width: 50%;
+	margin-top: 60px;
+}  
+.qua-content h3{
+	text-align: center;
+}
+.qua-content h4{
+	text-align: center;
+}
+.qua-content h4 span{
+}
+.qua-content p{
+	text-align: center;
+	width: 514px;
+	padding-bottom: 23px;
+	/*margin: 0 !important;*/
+	margin: auto;
+}
+.qua-btn{
+	width: 268px;
+	margin: auto;
+	padding-top: 8px;
+}
+.lorem{
+	font-weight: 600;
+	color: #242424;
+}
+.count{
+	width: 75px;
+	border: 1px solid #ebebeb;
+	padding: 10px 0;
+}
+.count h6{
+	margin: 0;
+	text-align: center;
+}
+.count .tm-num{
+	font-size: 26px;
+	color: #333;
+}
+.time-width{
+	width: 52%;
+	margin: auto;
+}
+.day{
+	margin-left: 3px;
+}
+.days{
+	margin-left: 0;
+}
+/*================ Discover section end here ===================*/
+/*================ Discover section end here ===================*/
+/*================ Discover section end here ===================*/
+/*================ middle section end here ===================*/
