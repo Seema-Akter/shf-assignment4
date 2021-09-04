@@ -369,158 +369,6 @@ hr{
 	display: block;
 }
 /*================ skincare section end here ===================*/
-/*================ Discover section start here ===================*/
-.discover{
-	background-color: #F8F8F8;
-}
-.dis-content{
-	margin-top: 160px;
-}
-.dis-wid{
-	width: 50%;
-	height: 535px;
-}
-.dis-wid img{
-	width: 100%;
-	height: 100%;
-}
-.dis-content h3{
-	margin: 0;
-	font-size: 46px;
-	font-weight: 600;
-}
-.dis-content h4{
-	font-size: 46px;
-	font-weight: 300;
-}
-.dis-content h4 span{
-	font-size: 46px;
-	font-weight: 300;
-}
-.dis-content p{
-	font-size: 15px;
-	font-weight: 400;
-}
-/*================ middle section end here ===================*/
-/*================ Discover section start here ===================*/
-
-.qua-img-wid img{
-	float: right;
-}
-.qua-img-wid{
-	width: 50%;
-	margin-top: 60px;
-}  
-.qua-content h3{
-	text-align: center;
-}
-.qua-content h4{
-	text-align: center;
-}
-.qua-content h4 span{
-}
-.qua-content p{
-	text-align: center;
-	width: 514px;
-	padding-bottom: 23px;
-	/*margin: 0 !important;*/
-	margin: auto;
-}
-.qua-btn{
-	width: 268px;
-	margin: auto;
-	padding-top: 8px;
-}
-.lorem{
-	font-weight: 600;
-	color: #242424;
-}
-.count{
-	width: 75px;
-	border: 1px solid #ebebeb;
-	padding: 10px 0;
-}
-.count h6{
-	margin: 0;
-	text-align: center;
-}
-.count .tm-num{
-	font-size: 26px;
-	color: #333;
-}
-.time-width{
-	width: 52%;
-	margin: auto;
-}
-.day{
-	margin-left: 3px;
-}
-.days{
-	margin-left: 0;
-}
-/*================ Discover section end here ===================*/
-/*================ last section start here ===================*/
-
-.sec5-img{
-	background-image: url("../img/last/las-img1.jpg");
-	width: 16.66%;
-	height: 225px;
-	background-size: cover;
-
-}
-.sec5-h2{
-	height: 225px;
-}
-.sec5-img .sec5-h2 img{
-    width: 20px;
-    height: 20px;
-    position: relative;
-    top: 190px;
-    left: 8px;
-}
-.las-img2{
-	padding-left: 50px;
-}
-.sec5-img .sec5-h2 .las-img span{
-    font-size: 18px;
-    color: #fff;
-    font-weight: 400;
-    padding-left: 10px;
-    /letter-spacing: .5px;
-    position: relative;
-    top: 186px;
-}
-
-.las-img{
-	display: none;
-}
-.sec5-img:hover .las-img{
-	display: block;
-}
-.sec5-img .sec5-h2:hover{
-	background-color: rgba(0, 0, 0, .5);
-	height: 225px;
-}
-
-.sec5-img2{
-	background-image: url("../img/last/las-img2.jpg");
-}
-.sec5-img3{
-	background-image: url("../img/last/las-img3.jpg");
-}
-.sec5-img4{
-	background-image: url("../img/last/las-img4.jpg");
-}
-.sec5-img5{
-	background-image: url("../img/last/las-img5.jpg");
-}
-.sec5-img6{
-	background-image: url("../img/last/las-img6.jpg");
-}
-/*================ last section end here ===================*/
-/*================ middle section end here ===================*/
-
-
 
 /*================section3 srart here================*/
 .cat-img{
@@ -600,3 +448,315 @@ hr{
 	background-image: url("../img/catrgory/cate-img5.webp");
 }
 /*================section3 end here================*/
+/*================ Discover section start here ===================*/
+.discover{
+	background-color: #F8F8F8;
+}
+.dis-content{
+	margin-top: 160px;
+}
+.dis-wid{
+	width: 50%;
+	height: 535px;
+}
+.dis-wid img{
+	width: 100%;
+	height: 100%;
+}
+.dis-content h3{
+	margin: 0;
+	font-size: 46px;
+	font-weight: 600;
+}
+.dis-content h4{
+	font-size: 46px;
+	font-weight: 300;
+}
+.dis-content h4 span{
+	font-size: 46px;
+	font-weight: 300;
+}
+.dis-content p{
+	font-size: 15px;
+	font-weight: 400;
+}
+/*================ Discover section end here ===================*/
+/*================ quaity section start here ===================*/
+.quality{
+	margin-bottom: 45px;
+}
+.qua-img-wid img{
+	float: right;
+}
+.qua-img-wid{
+	width: 50%;
+	margin-top: 60px;
+}  
+.qua-content h3{
+	text-align: center;
+}
+.qua-content h4{
+	text-align: center;
+}
+.qua-content h4 span{
+}
+.qua-content p{
+	text-align: center;
+	width: 514px;
+	padding-bottom: 23px;
+	margin: auto;
+}
+.qua-btn{
+	width: 268px;
+	margin: auto;
+	padding-top: 8px;
+}
+.lorem{
+	font-weight: 600;
+	color: #242424;
+}
+.count{
+	width: 75px;
+	border: 1px solid #ebebeb;
+	padding: 10px 0;
+}
+.count h6{
+	margin: 0;
+	text-align: center;
+}
+.count .tm-num{
+	font-size: 26px;
+	color: #333;
+}
+.time-width{
+	width: 52%;
+	margin: auto;
+}
+.day{
+	margin-left: 3px;
+}
+.days{
+	margin-left: 0;
+}
+/*================ quality section end here ===================*/
+/*=================== INGREDIENTS section start here ===================*/
+ .organ-sec{
+ 	margin: 55px 0 30px 0;
+ }
+ .organ-sec h2{
+	font-size: 36px;
+	color: #242424;
+	font-weight: 600;
+	text-align: center;
+	margin: 0;
+	padding-top: 10px;
+}
+.organ-sec .organ-p{
+	font-size: 16px;
+	color: #777;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 10px;
+	margin: auto;
+	width: 477px;
+	line-height: 26px;
+}
+ 
+/*=================== INGREDIENTS section end here =================== */
+/*=================== organnic product section start here ===================*/
+.organ-prod-sec{
+	margin-bottom: 40px;
+}
+.organ-box{
+	width: 30%;
+	margin: auto;
+}
+.organ-box img{
+	width: 89.50%;
+	margin: auto;
+}
+.org-content{
+	width: 89.50%;
+	margin: auto;
+	margin-left: 0;
+	margin-top: -5px;
+}
+ .org-content h2{
+	font-size: 74px;
+	font-weight: 700;
+	color: #7bbbdd;
+	margin: 0;
+	line-height: 74px;
+	padding-right: 20px;
+ }
+ .org-content h3{
+	font-size: 18px;
+	font-weight: 600;
+	color: #242424;
+	margin: 0;
+	line-height: 23px;
+ }
+ .org-content p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #777777;
+	margin: 0;
+	line-height: 22px;
+	padding: 10px 0 20px 0;
+ }
+/*=================== organnic product section end here =================== */
+/*================ blog section start here ===================*/
+.blog-sec{
+	padding-bottom: 70px;
+}
+.single-blog{
+	width: 31.50%;
+	margin: auto;
+	box-shadow: 0px 0px 4px #cfcfcf;
+}
+.single-blog:hover{
+	box-shadow: 0px 0px 10px #cfcfcf;
+}
+.blog-sec-img{
+	background-image: url("../img/blog-sec/blog-sec-img1.webp");
+	width: 100%;
+	height: 273px;
+	background-size: cover;
+
+}
+.blog-sec-h2{
+	height: 273px;
+}
+.blog-sec-img .blog-sec-h2 .las-img span{
+    font-size: 78px;
+    color: #fff;
+    font-weight: 400;
+    padding-left: 10px;
+    /letter-spacing: .5px;
+    position: relative;
+    top: 90px;
+    left: 152px;
+}
+
+.las-img{
+	display: none;
+}
+.single-blog:hover .blog-sec-h2{
+	background-color: rgba(0, 0, 0, .5);
+}
+.single-blog:hover .las-img{
+	display: block;
+}
+.hover-blog .blog-sec-h2:hover{
+	background-color: rgba(0, 0, 0, .5);
+	height: 273px;
+}
+.blog-sec-img2{
+	background-image: url("../img/blog-sec/blog-sec-img2.jpg");
+}
+.blog-sec-img3{
+	background-image: url("../img/blog-sec/blog-sec-img3.jpg");
+}
+.blog-cont{
+	padding: 0 20px;
+}
+.titp{
+	font-size: 12px;
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+	text-align: center;
+	margin-top: -13px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 25px;
+	background-color: #7BBBDD;
+	text-transform: uppercase;
+	letter-spacing: .3px;
+	width: 200px;
+}
+.blog-cont h2{
+	font-size: 24px;
+	color: rgb(51, 51, 51);
+	font-weight: 700;
+	text-align: center;
+	line-height: 34px;
+	margin: 0;
+}
+.blog-cont .blog-text{
+	font-size: 14px;
+	color: #777777;
+	font-weight: 400;
+	text-align: center;
+	line-height: 22px;
+}
+.blog-cont .continue{
+	font-size: 13px;
+	color: #7bbbdd;
+	font-weight: 800;
+	text-align: center;
+	line-height: 13px;
+	text-transform: uppercase;
+	padding: 10px 0 12px 0;
+}
+/*================ blog section end here ===================*/
+/*================ last section start here ===================*/
+
+.sec5-img{
+	background-image: url("../img/last/las-img1.jpg");
+	width: 16.66%;
+	height: 225px;
+	background-size: cover;
+
+}
+.sec5-h2{
+	height: 225px;
+}
+.sec5-img .sec5-h2 img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 190px;
+    left: 8px;
+}
+.las-img2{
+	padding-left: 50px;
+}
+.sec5-img .sec5-h2 .las-img span{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    padding-left: 10px;
+    /letter-spacing: .5px;
+    position: relative;
+    top: 186px;
+}
+
+.las-img{
+	display: none;
+}
+.sec5-img:hover .las-img{
+	display: block;
+}
+.sec5-img .sec5-h2:hover{
+	background-color: rgba(0, 0, 0, .5);
+	height: 225px;
+}
+
+.sec5-img2{
+	background-image: url("../img/last/las-img2.jpg");
+}
+.sec5-img3{
+	background-image: url("../img/last/las-img3.jpg");
+}
+.sec5-img4{
+	background-image: url("../img/last/las-img4.jpg");
+}
+.sec5-img5{
+	background-image: url("../img/last/las-img5.jpg");
+}
+.sec5-img6{
+	background-image: url("../img/last/las-img6.jpg");
+}
+/*================ last section end here ===================*/
+/*================ middle section end here ===================*/
+
