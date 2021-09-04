@@ -459,6 +459,144 @@ hr{
 	margin-left: 0;
 }
 /*================ Discover section end here ===================*/
-/*================ Discover section end here ===================*/
-/*================ Discover section end here ===================*/
+/*================ last section start here ===================*/
+
+.sec5-img{
+	background-image: url("../img/last/las-img1.jpg");
+	width: 16.66%;
+	height: 225px;
+	background-size: cover;
+
+}
+.sec5-h2{
+	height: 225px;
+}
+.sec5-img .sec5-h2 img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 190px;
+    left: 8px;
+}
+.las-img2{
+	padding-left: 50px;
+}
+.sec5-img .sec5-h2 .las-img span{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    padding-left: 10px;
+    /letter-spacing: .5px;
+    position: relative;
+    top: 186px;
+}
+
+.las-img{
+	display: none;
+}
+.sec5-img:hover .las-img{
+	display: block;
+}
+.sec5-img .sec5-h2:hover{
+	background-color: rgba(0, 0, 0, .5);
+	height: 225px;
+}
+
+.sec5-img2{
+	background-image: url("../img/last/las-img2.jpg");
+}
+.sec5-img3{
+	background-image: url("../img/last/las-img3.jpg");
+}
+.sec5-img4{
+	background-image: url("../img/last/las-img4.jpg");
+}
+.sec5-img5{
+	background-image: url("../img/last/las-img5.jpg");
+}
+.sec5-img6{
+	background-image: url("../img/last/las-img6.jpg");
+}
+/*================ last section end here ===================*/
 /*================ middle section end here ===================*/
+
+
+
+/*================section3 srart here================*/
+.cat-img{
+	background-image: url("../img/catrgory/cate-img1.webp");
+	width: 23%;
+	height: 530px;
+	background-size: cover;
+	margin: auto;
+
+}
+.cat-sec4{
+	width: 23%;
+	margin-left: 1%;
+}
+.cat-250{
+	width: 100%;
+	height: 251px;
+}
+.cat-img5{
+	margin-top: 28px;
+}
+.cat-h2{
+	width: 100%;
+	height: 530px;
+	background-color: rgba(0, 0, 0, .1);
+}
+.cat-250 .cat-h2{
+	width: 100%;
+	height: 251px;
+	background-color: rgba(0, 0, 0, .1);
+}
+.cat-img .cat-h2 h2{
+	margin-top: 0;
+    font-size: 21px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .5px;
+    position: relative;
+    top: 260px;
+    left: 100px;
+    margin-right:  34px;
+}
+.p-h2{
+	font-size: 16px !important;
+	font-weight: 400;
+	display: none;
+}
+.cat-250 .cat-h2 h2{
+    position: relative;
+    top: 130px;
+    left: 100px;
+}
+
+
+.cat-img:hover .p-h2{
+	display: block;
+}
+.cat-img .cat-h2:hover{
+	background-color: rgba(0, 0, 0, .4);
+	height: 530px;
+}
+.cat-250 .cat-h2:hover{
+	background-color: rgba(0, 0, 0, .4);
+	height: 251px;
+}
+
+.cat-img2{
+	background-image: url("../img/catrgory/cate-img2.webp");
+}
+.cat-img3{
+	background-image: url("../img/catrgory/cate-img3.webp");
+}
+.cat-img4{
+	background-image: url("../img/catrgory/cate-img4.webp");
+}
+.cat-img5{
+	background-image: url("../img/catrgory/cate-img5.webp");
+}
+/*================section3 end here================*/
