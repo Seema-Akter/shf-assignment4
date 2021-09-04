@@ -448,6 +448,17 @@ hr{
 	background-image: url("../img/catrgory/cate-img5.webp");
 }
 /*================section3 end here================*/
+/*=================== face mask section start here ===================*/
+ .mask-img1{
+	background-image: url("../img/mask/mask-img1.webp");
+}
+.mask-img2{
+	background-image: url("../img/mask/mask-img2.webp");
+}
+.mask-img3{
+	background-image: url("../img/mask/mask-img3.webp");
+}
+/*=================== face mask section start here ===================*/
 /*================ Discover section start here ===================*/
 .discover{
 	background-color: #F8F8F8;
