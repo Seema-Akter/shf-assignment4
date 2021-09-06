@@ -9,6 +9,7 @@ body{
 }
 a{
 	text-decoration: none;
+	color: #333;
 }
 
 ul{
@@ -771,3 +772,436 @@ hr{
 /*================ last section end here ===================*/
 /*================ middle section end here ===================*/
 
+
+
+
+/*============================= single product page start here ================================================*/
+/*================ single product page start here ===================*/
+.width80{
+	width: 80%;
+	margin: auto;
+}
+.width60{
+	width: 75%;
+}
+.width20{
+	width: 20%;
+	margin-left: 5%;
+}
+
+.blog-header{
+	background-color: rgb(255,255,255);
+}
+
+/*=============== breadcumb start here=============*/
+.bread-comb{
+	padding: 120px 0 0 0;
+	color: #333;
+	font-size: 13px;
+	font-weight: 600;
+	margin: auto;
+	width: 26%;
+}
+.breadp{
+	margin: 0;
+	padding-left: 6px;
+}
+.bread-comb ul li{
+	padding-left: 5px;
+	text-align: center;
+}
+.bread-comb ul li a{
+	color: #8e8e8e;
+	font-size: 13px;
+	font-weight: 400;
+}
+.bread-comb ul li:nth-child(1){
+	padding-left: 0;
+}
+.bread-comb ul li:after{
+	content: "/";
+	color: #8e8e8e;
+	padding-left: 6px;
+}
+
+
+/*=============== breadcumb start here=============*/
+
+/*===================*/
+.pro-page{
+	margin-top: 45px;
+}
+.prod-tham-img{
+	background-image: url("../img/skincare/skin-product2.webp");
+	background-size: cover;
+	width: 100%;
+	height: 370px;
+}
+.prod-img{
+	width: 44%;
+}
+.prod-img img{
+	width: 67%;
+	/*margin: auto;*/
+	margin-left: 16px;
+	margin-top: 16px;
+	border: 1px solid #e3e0e0;
+}
+.img-bor{
+}
+img.prod-img1{
+	margin-left: 0;
+}
+.pro-art{
+	width: 60%;
+	margin-left: 5%;
+}
+.breadp a{
+	color: #242424 !important;
+}
+/*===================*/
+.pro-art .prod-tit, .pro-art .pro-price{
+	font-size: 24px;
+	font-weight: 400;
+	color: #333;
+	margin: 0;
+}
+.pro-art .pro-price{
+	font-weight: 600;
+}
+.pro-art .status{
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
+	/*margin: 0;*/
+}
+.pro-art .status span{
+	font-weight: 900;
+	color: #7bbbdd;
+}
+.pro-art ul li{
+	font-weight: 400;
+	color: #777;
+	font-size: 14px;
+	letter-spacing: .5px;
+	line-height: 24px;
+}
+.pro-art ul li:before{
+	content: ".";
+	font-size: 50px;
+	line-height: 0px;
+	padding-right: 5px;
+	margin-top: -2px;
+}
+
+.variable-prod .color-border{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border: 1px solid #b6b2b2;
+	margin-right: 5px;
+}
+
+.variable-prod .color{
+	border: none;
+	background-color: #44B750;
+	transform: scale(0.7);
+}
+.variable-prod .color2{
+	background-color: #EDC9C9;
+}
+.variable-prod .color3{
+	background-color: #E41EBE;
+}
+.buy-now-btn{
+	width: 100%;
+	font-size: 15px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #7bbbdd;
+	border: none;
+	padding: 10px 0;
+	margin-top: 25px;
+	/*text-align: center;*/
+}
+.prod-color button{
+	width: 198px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #515151;
+	border: none;
+	height: 32px;
+	margin-left: 20px;
+    margin-top: 16px;
+}
+.quan-box p{
+	margin: 0;
+}
+.quantity{
+	border: 1px solid #a7a7a7;
+	padding: 7px;
+	margin-top: 5px;
+}
+.quan-box{
+	margin-top: -5px;
+	margin-left: 20px;
+}
+.quantity p{
+	width: 30px;
+	margin: auto;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	color: #777;
+}
+.quantity .qua-num{
+	color: #333;
+}
+.quanp{
+	font-size: 12px;
+	font-weight: 400;
+	color: #777;
+}
+.color-margin{
+	margin-top: 16px;
+}
+/*.quantity .minus{
+	width: 30px;
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+}*/
+/*================ single product page end here ===================*/
+/*================ product description start here ===================*/
+
+/*.breadp{
+	margin: 0;
+	padding-left: 6px;
+}*/
+.des ul li{
+	padding-left: 60px;
+	text-align: center;
+}
+.des ul li a{
+	color: #8e8e8e;
+	font-size: 19px;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+.des ul li:nth-child(1){
+	padding-left: 0;
+}
+.des ul li:nth-child(1) a{
+	border-bottom: 3px solid #7BBBDD;
+	color: #333;
+}
+.des ul li a:hover{
+	border-bottom: 3px solid #7BBBDD;
+	color: #333;
+}
+.des{
+	border-bottom: 1px solid #cecece;
+	margin-bottom: 60px;
+	margin-top: 70px;
+	padding-bottom: 12px;
+}
+.prod-des{
+	margin-top: 30px;
+}
+.prod-des h2{
+	color: #333;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 26px;
+}
+.prod-des p{
+	color: #777;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+}
+.prod-des2{
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+.rel-sec{
+	margin-top: 40px;
+}
+/*================ product page product end here ===================*/
+
+.skin-product{
+	margin-left: 0% !important;
+}
+.skin-product{
+	margin-right: 2% !important;
+}
+.rela-h2{
+	color: #242424;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 31px;
+	padding: 10px 0;
+}
+.rela-h2 span{
+	border-bottom: 2px solid #7BBBDD;
+}
+/*============================= single product page end here ================================================*/
+/*============================= sidebar start here ================================================*/
+.side-bor{
+	border: 1px solid #dcdada;
+}
+.side-ti{
+	color: #242424;
+	font-size: 20px;
+	font-weight: 600;
+	background-color: #F4F4F4;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	border-bottom: 1px solid #dcdada;
+}
+.side-box{
+	width: 85%;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 1px solid #cecece;*/
+}
+.side-box-inside{
+	width: 85%;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.side-box-inside img{
+	width: 100%
+}
+.side-box-inside h2{
+	color: #7bbbdd;
+	font-size: 14px;
+	font-weight: 900;
+	margin: 0;
+	padding-top: 10px;
+}
+.side-box-inside h3{
+	color: #333;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0;
+	padding-top: 10px;
+}
+.side-box1{
+	margin-top: 30px;
+}
+.side-box3{
+	margin-bottom: 40px;
+}
+.side-box:hover{
+	border: 1px solid #cecece;
+}
+.side-ads{
+	width: 100%;
+	margin-bottom: 20px;
+}
+/*============================= sidebar page end here ================================================*/
+
+
+
+/*=====================================================
+							footer start here 
+============================================================*/
+
+.footer{
+	background-color: #333;
+	padding: 60px 0 30px 0;
+	/*margin-top: 60px;*/
+}
+.footer-prod{
+	margin-top: 60px !important;
+}
+
+.f-width{
+	width: 25%;
+	padding-right: 40px;
+}
+.f-width .foot-logo{
+	width: 80%;
+}
+.f-img1{
+	width: 140px;
+	/*margin-right: 25px;*/
+}
+.f-img2{
+	width: 60px;
+}
+.footer-left p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #aaa;
+}
+.fmimg{
+	width: 80px;
+	height: 80px;
+	margin-right: 13px;
+	margin-bottom: 13px;
+	background-color: rgba(0, 0, 0, .45) ;
+}
+.footer-middle{
+	/*margin: auto;*/
+}
+.fotitle{
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	margin: 0 0 20px 0;
+	letter-spacing: 1.5px;
+}
+.news-tittle{
+	font-size: 19px;
+}
+.footer-right p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #aaa;
+	margin: 0 0 20px 0;
+	margin-bottom: 10px;
+}
+.footer-right img{
+	margin-top: 20px;
+}
+
+.footer-bottom{
+	background-color: #181818;
+	padding: 30px 0;
+}
+.footer-bottom p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #aaa;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.fbox{
+	width: 294px !important;
+}
+/*=====================================================
+							footer end here 
+============================================================*/
+
+
+.news-butt input{
+	font-size: 15px;
+	font-weight: 400;
+	width: 150px;
+	color: #757575;
+	padding: 18px;
+	/*border-radius: 30px;*/
+	background-color: #525252;
+	border: none;
+}
+.sce6-btn{
+	background-color: #7bbbdd;
+	border-color: #7bbbdd;
+	color: #fff;
+}
